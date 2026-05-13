@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brands | Sunfest Photos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+            <!-- Sun circle -->
+            <circle cx="50" cy="50" r="28" fill="none" stroke="#111" stroke-width="2.5"/>
+            <!-- Sun rays -->
+            <line x1="50" y1="12" x2="50" y2="4" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="50" y1="88" x2="50" y2="96" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="12" y1="50" x2="4" y2="50" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="88" y1="50" x2="96" y2="50" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="22" y1="22" x2="16" y2="16" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="78" y1="78" x2="84" y2="84" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="78" y1="22" x2="84" y2="16" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="22" y1="78" x2="16" y2="84" stroke="#111" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- S letter -->
+            <text x="50" y="65" font-size="48" font-weight="800" text-anchor="middle" fill="#111" font-family="inherit">S</text>
+          </svg>
+        </div>
+        <div>
+          <p class="eyebrow"></p>
+          <h1>Sunfest Photos</h1>
+        </div>
+      </div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="index.html#portfolio">Portfolio</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section portfolio-section">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Portfolio</p>
+          <h2>Brands</h2>
+          <p class="page-intro">Commercial and brand storytelling imagery built for campaign, product, and editorial use.</p>
+        </div>
+        <div class="gallery-page-actions">
+          <a class="button button-secondary" href="index.html#portfolio">Back to Portfolio</a>
+        </div>
+        <div class="carousel" aria-label="Brands carousel">
+          <div class="carousel-track">
+            <div class="carousel-slide current-slide">
+              <img src="./brand/IMG_9420.png" alt="Brand photography sample" />
+            </div>
+            <div class="carousel-slide">
+              <img src="./brand/IMG_9451.png" alt="Brand photography sample" />
+            </div>
+            <div class="carousel-slide">
+              <img src="./brand/IMG_9503 2.png" alt="Brand photography sample" />
+            </div>
+           </div>
+          <button class="carousel-button carousel-button--prev" aria-label="Previous slide">&#x2190;</button>
+          <button class="carousel-button carousel-button--next" aria-label="Next slide">&#x2192;</button>
+          <div class="carousel-indicators">
+            <button class="carousel-indicator active" aria-label="Slide 1"></button>
+            <button class="carousel-indicator" aria-label="Slide 2"></button>
+            <button class="carousel-indicator" aria-label="Slide 3"></button>
+            <button class="carousel-indicator" aria-label="Slide 4"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Sunfest Photos</p>
+      <p></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
